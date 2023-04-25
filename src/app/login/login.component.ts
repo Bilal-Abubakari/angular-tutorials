@@ -30,4 +30,12 @@ export class LoginComponent {
       this.success = ""
     }
   }
+
+  getColor () {
+    if(this.error){
+      return 'red'
+    }
+  }
 }
+
+
