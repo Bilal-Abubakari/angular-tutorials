@@ -1,1 +1,5 @@
-<p>success-alert works!</p>
+<button [disabled]="isChangeable" (click)="login()">Log in</button>
+<p>{{ 'Bilal' }} is {{ loginStatus }}</p>
+<input type="text" class="p-4 border-amber-600 border-2" (input)="updateInput($event)">
+<p>Typed word: {{ typedWord }}</p>
+<input type="text" [(ngModel)]="typedWord" class="p-4 border-b-black mt-2 border-2">

@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
-  title = "Sign up";
+  title: string = "Sign up";
   greetUser = () => {
     return "Hello"
   }

@@ -1,3 +1,9 @@
 p{
   color: green;
 }
+
+button{
+  color: white;
+  background-color: green;
+  padding: 4px;
+}
