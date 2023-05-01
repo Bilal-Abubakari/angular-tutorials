@@ -6,8 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
-  title: string = "Sign up";
-  greetUser = () => {
-    return "Hello"
+  isProfileMenuOpen: boolean = false;
+  isNavMenuOpen: boolean = false;
+  toggleProfileMenu() {
+    this.isProfileMenuOpen = !this.isProfileMenuOpen;
+  }
+
+  toggleNavMenu() {
+  this.isNavMenuOpen = !this.isNavMenuOpen;
   }
 }
